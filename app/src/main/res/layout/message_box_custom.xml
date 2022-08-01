@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_messagebox_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text="@string/do_you_want_to_continue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_custom_cancel"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/ripple_effect_stroke"
+            android:text="@string/cancel"
+            android:textColor="@color/PrimaryHeaderColor"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_custom_confirm"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/button"
+            android:text="@string/confirm"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

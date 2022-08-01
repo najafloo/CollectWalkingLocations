@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">LocationRecorder</string>
+    <string name="get_current_location">دریافت موقعیت فعلی</string>
+    <string name="latitude">عرض جغرافیایی :</string>
+    <string name="longitude">طول جغرافیایی :</string>
+    <string name="sample_lat">0.0</string>
+    <string name="sample_long">0.0</string>
+    <string name="address">آدرس</string>
+    <string name="phone">شماره تماس</string>
+    <string name="description">توضیحات</string>
+    <string name="save_data">ذخیره کن</string>
+    <string name="show_data">نمایش اطلاعات</string>
+    <string name="phone_hint">0912…</string>
+    <string name="title_hint">میدان انقلاب</string>
+    <string name="description_hint">ضلع شمالی میدان</string>
+    <string name="fill_data">اطلاعات را تکمیل نمایید</string>
+    <string name="saved_successful">نقطه جدید ذخیره گردید</string>
+    <string name="no_data">هیچ داده ای جهت نمایش وجود ندارد</string>
+    <string name="no_data_to_export">هیچ داده ای جهت خروجی گرفتن وجود ندارد</string>
+    <string name="do_you_want_to_continue">ادامه میدهید؟</string>
+    <string name="cancel">کنسل</string>
+    <string name="confirm">تایید</string>
+    <string name="setting_message">سیستم موقعیت یاب قعال نمیباشد. آیا می خواهید به تنظیمات بروید؟</string>
+    <string name="settings">تنظیمات</string>
+    <string name="cancell">انصراف</string>
+    <string name="detail">جزییات اطلاعات مکانی</string>
+    <string name="wait_gps">منتظر دریافت اطلاعات موقعیت مکانی بمانید</string>
+    <string name="empty">بدون اطلاعات</string>
+    <string name="export">خروجی گرفتن از اطلاعات</string>
+    <string name="title">ثبت داده های مکانی</string>
+    <string name="export_successful">اطلاعات با موفقیت ذخیره شد</string>
+    <string name="reset_ui">پاک کردن فیلدهای پر شده</string>
+
+</resources>
